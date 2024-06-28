@@ -1,0 +1,83 @@
+.area{
+    margin-top: 100px;
+    height: 400px;
+}
+.area h3{
+    margin-top: 20px;
+
+}
+
+.bgimg{
+    width: 100%;
+    object-fit: cover;
+    height: 102%;
+}
+.bgimg2{
+    
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+   
+}
+.bgimg3{
+  object-fit: cover;
+}
+
+.menu-table table{
+    width: 100%;
+}
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .menu-table th,
+  .menu-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .menu-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .menu-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .menu-table .menu-item {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .menu-table .price {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .menu-table .status {
+    font-size: 14px;
+    color: green;
+  }
+  
+  .cart{
+        border-radius:5px;
+        color: #fff4d0;
+        background-color: rgb(170, 6, 6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        border: none;
+        font-size: 20px;
+    }
+    .cart:hover{
+        background-color: #ffa700;
+        color:rgb(170, 6, 6); 
+    }

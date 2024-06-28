@@ -1,0 +1,230 @@
+.hero {
+  position: relative;
+}
+
+.food-bg {
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 80px;
+  background-image: url("./images/Food_bg.png");
+  background-size: cover;
+}
+
+.food-font {
+  font-family: cursive;
+  color: #fff4d0;
+  height: 250px;
+  font-size: 4rem;
+}
+
+.logo-hero img {
+  width: 12rem;
+}
+
+.collection {
+  background-color: #f8f8f8;
+  width: 100%;
+  position: relative;
+}
+
+.collection h2 {
+  font-size: 2.3rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+
+.collection h6 {
+  line-height: 1.4;
+  font-weight: 300;
+  color: rgb(54, 54, 54);
+  font-size: 1.2rem;
+}
+.collection a {
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgb(170, 6, 6);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.card1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  max-height: 350px;
+  border-radius: 2px;
+}
+
+.card1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+.text-img {
+  position: absolute;
+  color: #fff4d0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+  width: 100%;
+}
+
+.btn-section {
+  position: sticky;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.mybtn {
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 226, 231);
+  padding: 9px 12px;
+  display: inline-grid;
+  width: max-content;
+  grid-auto-flow: column;
+  gap: 8px;
+  box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+  transition: all 100ms ease-in 0s;
+}
+.mybtn:hover {
+  background-color: #fff4d0;
+}
+
+.offer-bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-image: url("./images/offers.jpg");
+  background-size: cover;
+}
+
+.logo-offer img {
+  margin-top: 20px;
+  width: 8rem;
+}
+
+.offer-font {
+  font-family: cursive;
+  color: #fff4d0;
+  height: 250px;
+  font-size: 2rem;
+}
+
+.opts-img {
+  text-align: center;
+}
+.mytxt {
+  color: #191919;
+  font-size: 32px;
+}
+
+.opt-text {
+  color: #191919;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: var(--usage-type-display-large-size);
+  line-height: var(--usage-type-display-large-line-height);
+  letter-spacing: var(--usage-type-display-large-letter-spacing);
+  text-decoration: var(--usage-type-display-large-text-decoration);
+  text-align: center;
+}
+
+.opt-text2 {
+  font-size: 18px;
+  color: #191919;
+  font-weight: 500;
+}
+.opts a {
+  text-decoration: none;
+  color: rgb(170, 6, 6);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.location-p {
+  font-size: 36px;
+  color: #363636;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.location-cols {
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 232, 232);
+  margin-bottom: 0.5rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.location-cols h6, .location-cols p {
+  color: black;
+}
+
+.food-card {
+  position: relative;
+  margin-top: 20px;
+  width: 254px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+.food-imgs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  
+}
+
+.animate {
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+
+.animate:hover {
+  transform: scale(1.1);
+}
+
+/* .food-imgs:hover {
+  transform: scale(1.1);
+} */
+
+/* .food-card img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+} */
+.food-des h6,
+.food-des span {
+  margin: 5px;
+  font-weight: 700;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  color: rgba(2, 6, 12, 0.75);
+  width: 100%;
+  overflow-wrap: break-word;
+}

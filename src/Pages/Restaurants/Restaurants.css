@@ -1,0 +1,23 @@
+.myResto{
+    margin-top: 100px;
+}
+.myResto h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px ;
+    font-weight: 700;
+    background-color: rgb(170, 6, 6);
+    border-radius: 50px;
+    color: #fff4d0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+}
+.myResto h3:hover{
+    background-color: #ffa700;
+    color: rgb(170, 6, 6);
+}
+.myResto select {
+    width: 100%;
+}

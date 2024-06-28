@@ -1,0 +1,27 @@
+.nav-pos{
+    position: relative;
+}
+.help-main{
+    margin-top: 100px;
+    position: inherit;
+}
+.help-head h2{
+    font-size: 35px;
+}
+.help-head p{
+    font-size: 22px;
+}
+.help-img{
+    height: 400px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+}
+
+.help-txt{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.help-foot{
+    margin-top: 100px;
+}

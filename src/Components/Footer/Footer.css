@@ -1,0 +1,22 @@
+.footer-body{
+    background-color: #aa0606;
+
+}
+
+.company-details li {
+    color: #fff4d0;
+}
+.company-details a{
+    color: #fff4d0;
+}
+.logo-name{
+    color: #fff4d0;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+
+}
